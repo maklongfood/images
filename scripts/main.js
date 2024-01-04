@@ -1,7 +1,7 @@
 // Function to fetch and display images
 function displayImages() {
     const imageContainer = document.getElementById('imageContainer');
-    const imageFolder = 'images/'; // Update the folder path
+    const imageFolder = './images/'; // Update the folder path
 
     // Fetch images from the specified folder
     fetch(imageFolder)
